@@ -1,0 +1,7 @@
+body{font-family:system-ui,Segoe UI,Roboto,Arial;padding:18px;background:#f6f7fb;color:#111}
+.container{max-width:780px;margin:0 auto}
+.controls{margin:12px 0}
+button{padding:10px 14px;margin-right:8px;border-radius:8px;border:1px solid #ccc;background:#fff;cursor:pointer}
+button:disabled{opacity:0.5;cursor:not-allowed}
+.log{background:#fff;padding:12px;border-radius:8px;border:1px solid #ddd;height:240px;overflow:auto}
+#status{margin-top:8px;font-size:14px}

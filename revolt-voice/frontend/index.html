@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Rev — Revolt Motors Voice Chat Replica</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Rev — Revolt Motors Voice Chat</h1>
+
+    <div id="status">Status: <span id="statusText">idle</span></div>
+
+    <div class="controls">
+      <button id="connectBtn">Start Session</button>
+      <button id="micBtn" disabled>🎤 Start Speaking</button>
+      <button id="stopBtn" disabled>🛑 Interrupt / Stop</button>
+    </div>
+
+    <div class="log" id="log"></div>
+
+    <audio id="player" controls></audio>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
